@@ -1,1 +1,12 @@
 # CRUD for TEST
+
+
+## Front End ENV
+- REACT_APP_API_URL
+
+## Back End ENV
+- DB_HOST
+- DB_USER
+- DB_PASSWORD
+- DB_NAME
+- PORT
