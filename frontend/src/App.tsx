@@ -1,11 +1,10 @@
-import React from 'react';
+/** @format */
+
 import './App.css';
 import TodoPage from './pages/Todo';
 
 function App() {
-  return (
-    <TodoPage/>
-  );
+  return <TodoPage/>
 }
 
 export default App;
