@@ -5,7 +5,7 @@ import { getTodos, getTodoById, createTodo, updateTodo, deleteTodo } from '../co
 
 const router = express.Router();
 
-router.get('/status', (req, res) => res.status(200));
+router.get('/status', (req, res) => res.status(200).json({ status: 'Success' }));
 router.get('/todos', getTodos);
 router.get('/todos/:id', getTodoById);
 router.post('/todos', createTodo);
